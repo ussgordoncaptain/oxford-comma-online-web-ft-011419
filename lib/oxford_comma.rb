@@ -8,7 +8,7 @@ def oxford_comma(array)
       array[ii] = ele + ","
       ii+=1
     end
-end  
+  end  
   if size > 1
     array.insert(-2 , "and")
   end 
